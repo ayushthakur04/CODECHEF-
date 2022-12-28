@@ -1,0 +1,36 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int i,n,t;
+	cin>>t;
+	while(t--)
+	{
+	 int a[3],b[3],c=0,d=0;
+	 for(i=0;i<3;i++)
+	  {
+	      cin>>a[i];
+	  }
+	  for(i=0;i<3;i++)
+	  {
+	      cin>>b[i];
+	  }
+	   for(i=0;i<3;i++)
+	  {
+	      if(a[i]==1)
+	      {
+	       c++;
+	      }
+	      if(b[i]==1)
+	      {
+	       d++;
+	      }
+	  }
+	  if(c==d)
+	  cout<<"Pass"<<endl;
+	  else
+	  cout<<"Fail"<<endl;
+	}
+	return 0;
+}
