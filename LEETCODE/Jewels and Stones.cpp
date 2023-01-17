@@ -10,7 +10,7 @@ public:
         int count=0;
         for(char i:stones)
         {
-            if(mp.count(i)
+            if(mp.count(i))
             {
                 count++;
             }
