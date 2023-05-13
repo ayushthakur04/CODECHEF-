@@ -10,7 +10,7 @@ int main() {
 	    if(i>=j){
 	        cout<<"YES"<<endl;
 	    }
-	    else{
+	    else{a
 	        cout<<"NO"<<endl;
 	    }
 	}
