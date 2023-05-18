@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 	// your code goes here
-    int i,j;
+    int i,j;i
     cin>>i>>j;
     if(i>=j){
         cout<<"NO"<<endl;
